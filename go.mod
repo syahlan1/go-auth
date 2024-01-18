@@ -4,10 +4,15 @@ go 1.21.5
 
 require github.com/gofiber/fiber/v3 v3.0.0-20240117084726-a776d2933ef4
 
-require github.com/go-sql-driver/mysql v1.7.0 // indirect
+require (
+	github.com/go-sql-driver/mysql v1.7.0 // indirect
+	github.com/mattn/go-runewidth v0.0.15 // indirect
+	github.com/rivo/uniseg v0.2.0 // indirect
+)
 
 require (
 	github.com/andybalholm/brotli v1.1.0 // indirect
+	github.com/gofiber/fiber/v2 v2.52.0
 	github.com/gofiber/utils/v2 v2.0.0-beta.3 // indirect
 	github.com/google/uuid v1.5.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
