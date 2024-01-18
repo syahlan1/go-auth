@@ -8,6 +8,7 @@ require (
 	github.com/go-sql-driver/mysql v1.7.0 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
+	golang.org/x/crypto v0.18.0 // indirect
 )
 
 require (
