@@ -7,7 +7,7 @@ require github.com/gofiber/fiber/v3 v3.0.0-20240117084726-a776d2933ef4
 require (
 	github.com/go-sql-driver/mysql v1.7.0 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
-	github.com/rivo/uniseg v0.2.0 // indirect
+	github.com/rivo/uniseg v0.4.4 // indirect
 	golang.org/x/crypto v0.18.0 // indirect
 )
 

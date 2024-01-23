@@ -12,6 +12,10 @@ func main() {
 
 	app := fiber.New()
 
+	//Middlewares
+	routes.Setup(app)
+	//Middlewares
+
 	app.Use(cors.New(cors.Config{
 		AllowCredentials: true,
 	}))
